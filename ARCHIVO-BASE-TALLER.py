@@ -14,6 +14,14 @@ def calcular_rectangulo():
     print(f"Área: {area:.2f}")
     print(f"Perímetro: {perimetro:.2f}")
 
+# Función de PANCHO PISTOLAS
+def convertir_temperatura():
+    print("\n--- CONVERTIR TEMPERATURA ---")
+    celsius = float(input("Ingrese la temperatura en Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"{celsius}°C es igual a {fahrenheit:.2f}°F")
+
+
 
 # Funciones persoales (presentación del grupo)
 def hola_soy_Euler():
@@ -21,6 +29,12 @@ def hola_soy_Euler():
     "un joven de 50 años. soy profesor de artes marciales, mi especialidad es Ninjutsu," \
     "tambien soy tatuador profesional aunque yo no tengo tatuajes, pero me gusta el arte de dibujar" \
     "y lo practico bien. Tambien creo contenido sobre auto superación masculina y escribo sobre el tema")
+
+def hola_soy_pancho_pistolas():
+    print("Hola ¿Como estás? Mi nombre es Pancho Pistolas y soy un personaje de dibujos animados." \
+    "soy un gallo antropomórfico de dibujos animados creado por Fred Moore." \
+    " Aparecií por primera vez en la película de Disney de 1944 (tu no habias nacido y Euler tampoco)," \
+    " ahi salí junto a mis amigos el Pato Donald y José Carioca .")
 
 
 def nota_para_profesor():
@@ -71,7 +85,6 @@ while True:
         nota_para_profesor()
     else:
         print("Opción inválida.")
-
 
 
 
