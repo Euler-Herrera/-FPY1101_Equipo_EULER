@@ -14,20 +14,6 @@ def calcular_rectangulo():
     print(f"Área: {area:.2f}")
     print(f"Perímetro: {perimetro:.2f}")
 
-# Función de PANCHO PISTOLAS
-def convertir_temperatura():
-    print("\n--- CONVERTIR TEMPERATURA ---")
-    celsius = float(input("Ingrese la temperatura en Celsius: "))
-    fahrenheit = (celsius * 9/5) + 32
-    print(f"{celsius}°C es igual a {fahrenheit:.2f}°F")
-
-# Aquí la función del SEÑOR BOLAINAS
-def convertir_kilometros_a_millas():
-    print("\n--- CONVERTIR KILÓMETROS A MILLAS ---")
-    kilometros = float(input("Ingrese la distancia en kilómetros: "))
-    millas = kilometros * 0.621371
-    print(f"{kilometros} km es igual a {millas:.2f} millas")
-
 
 # Funciones persoales (presentación del grupo)
 def hola_soy_Euler():
@@ -36,16 +22,6 @@ def hola_soy_Euler():
     "tambien soy tatuador profesional aunque yo no tengo tatuajes, pero me gusta el arte de dibujar" \
     "y lo practico bien. Tambien creo contenido sobre auto superación masculina y escribo sobre el tema")
 
-def hola_soy_pancho_pistolas():
-    print("Hola ¿Como estás? Mi nombre es Pancho Pistolas y soy un personaje de dibujos animados." \
-    "soy un gallo antropomórfico de dibujos animados creado por Fred Moore." \
-    " Aparecií por primera vez en la película de Disney de 1944 (tu no habias nacido y Euler tampoco)," \
-    " ahi salí junto a mis amigos el Pato Donald y José Carioca .")
-
-def hola_soy_el_señor_bolainas():
-    print("Hola soy El Sr Bolainas, residente desaparecido de Springfield, soy un señor" \
-    "mayor que llegó a la ciudad desde un lugar muy lejano con el fin de promover" \
-    "el correcto uso de los fondos monetarios en causas valiosas como la planta nuclear.")
 
 def nota_para_profesor():
     print("Hola profe, he creado este programa que es muy sencillo porque" \
