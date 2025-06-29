@@ -47,6 +47,11 @@ def hola_soy_el_señor_bolainas():
     "mayor que llegó a la ciudad desde un lugar muy lejano con el fin de promover" \
     "el correcto uso de los fondos monetarios en causas valiosas como la planta nuclear.")
 
+def nota_para_profesor():
+    print("Hola profe, he creado este programa que es muy sencillo porque" \
+    "es hasta donde aún llega mi comprensión de aprendizaje, esperando cumpla con" \
+    "lo solicitado. Se que me faltaron mas comprobaciones pero ya se me hacia mas largo y complejo" \
+    "y preferí que fuese al menos funcional")
 
 # Menú base del programa
 while True:
