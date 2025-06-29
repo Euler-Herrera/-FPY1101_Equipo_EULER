@@ -21,6 +21,12 @@ def convertir_temperatura():
     fahrenheit = (celsius * 9/5) + 32
     print(f"{celsius}°C es igual a {fahrenheit:.2f}°F")
 
+# Aquí la función del SEÑOR BOLAINAS
+def convertir_kilometros_a_millas():
+    print("\n--- CONVERTIR KILÓMETROS A MILLAS ---")
+    kilometros = float(input("Ingrese la distancia en kilómetros: "))
+    millas = kilometros * 0.621371
+    print(f"{kilometros} km es igual a {millas:.2f} millas")
 
 
 # Funciones persoales (presentación del grupo)
@@ -36,12 +42,11 @@ def hola_soy_pancho_pistolas():
     " Aparecií por primera vez en la película de Disney de 1944 (tu no habias nacido y Euler tampoco)," \
     " ahi salí junto a mis amigos el Pato Donald y José Carioca .")
 
+def hola_soy_el_señor_bolainas():
+    print("Hola soy El Sr Bolainas, residente desaparecido de Springfield, soy un señor" \
+    "mayor que llegó a la ciudad desde un lugar muy lejano con el fin de promover" \
+    "el correcto uso de los fondos monetarios en causas valiosas como la planta nuclear.")
 
-def nota_para_profesor():
-    print("Hola profe, he creado este programa que es muy sencillo porque" \
-    "es hasta donde aún llega mi comprensión de aprendizaje, esperando cumpla con" \
-    "lo solicitado. Se que me faltaron mas comprobaciones pero ya se me hacia mas largo y complejo" \
-    "y preferí que fuese al menos funcional")
 
 # Menú base del programa
 while True:
